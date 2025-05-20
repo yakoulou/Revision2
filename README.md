@@ -54,7 +54,7 @@ Vous disposez :
 :pencil: Je vous conseille de bien étudier les sources Java et les ressources XML !
 
 
-**Question 1 :** Traduire l'application en français.
+**Question 1 :** Traduire l'application en français et en espagnol.
 
 **Question 2 :** Compléter les layouts pour que les interfaces utilisateurs ressemblent à celles de l'application de démonstration.
 
