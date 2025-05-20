@@ -1,0 +1,61 @@
+# Application pour calculer l'IMC
+
+## C'est quoi l'indice de masse corporel IMC ?
+
+
+> L'indice de masse corporelle (IMC, en anglais *Body Mass Index*, BMI) est une grandeur qui permet d'estimer la corpulence d'une personne. Elle a été inventée par *Adolphe Quetelet*, scientifique belge fondateur de la statistique moderne; cet indice est aussi appelé indice de *Quetelet*.
+
+Cet indice se calcule en fonction de la **taille** et de la **masse**. Bien qu'il ait été conçu au départ pour les adultes de 18 à 65 ans, de nouveaux diagrammes de croissance ont vu le jour au cours des dernières décennies pour les enfants de 0 à 18 ans. Dans les deux cas, il constitue une indication et intervient dans le calcul de l'IMG. (source *Wikipedia*)
+
+<img width="800px" height="auto" src="images/imc_courbes.png" />
+
+
+## Comment se calcule l'IMC ?
+
+L'IMC est égale à $\frac{masse}{taille*taille}$ (la taille exprimé en **mètre**).
+
+## Travail à faire
+
+Compléter le projet fourni en vous basant sur les fonctionnalités que vous déduirez de l'application de démonstration. Vous penserez à internationaliser l'application pour le français et l'espagnol.
+
+
+**Description textuelle du \textit{déroulement type} d'une utilisation de cette application :**
+1. l'utilisateur saisi son nom et son prénom,
+2. l'utilisateur saisi sa date de naissance,
+3. l'utilisateur saisi son poids,
+4. l'utilisateur saisi sa taille en centimètres ou en mètre(s). **Il devra indiqué le mode choisi gr\^ace au bouton radio de l'interface afin que le calcul de l'IMC se fasse correctement**.
+5. l'utilisateur appuie sur la touche `Calculer` , le résultat s'affiche dans une autre activité.
+6. lorsque l'utilisateur appuie sur le bouton `back` de l'application (pas celle du terminal), un historique est affiché en bas de la première activité sous forme de liste (`RecyclerView`).
+
+
+**De plus :**
+
+* A tout moment l'utilisateur pourra appuyer sur le bouton `RAZ` permettant d'effacer toutes les informations déjà saisies.
+* Toutes les erreurs sont indiquées par des Toasts appropriés (par exemple, demande de calcul sans avoir entré les informations nécessaires etc.)
+
+
+
+
+**Avant de commencer !**
+
+Vous disposez :
+
+* d'une **application de démonstration** sous forme d'archive APK à installer sur l'émulateur.
+* d'un **certain nombre de classes** (déjà intégrées au projet Android Studio) et qu'il ne faudra pas modifier :
+  * `FicheIMC`: classe `Parcelable` (c'est à dire, dont les instances sont "transportables" par un `Intent` en tant que *données extras* peut-être utilisée pour assurer une communication à l'intérieur d'une application entre activités. 
+  > Un `Intent` pourra, par exemple, transporter une instance de cette classe en tant que données extras. 
+  * `AdapterPersonnalise` : qui permet d'alimenter une `ReclyclerView`.
+
+* d'un certain nombre de ressource XML, notamment  `listitem.xml` qui permet de décrire une ligne de la `RecylcerView`.
+
+
+:dart: En d'autres termes, toutes ces ressources vous permettent de vous concentrer sur les notions abordées lords des cours. 
+
+:pencil: Je vous conseille de bien étudier les sources Java et les ressources XML !
+
+
+**Question 1 :** Traduire l'application en français.
+
+**Question 2 :** Compléter les layouts pour que les interfaces utilisateurs ressemblent à celles de l'application de démonstration.
+
+**Question 3 :** Complétez les classes Java pour que votre application ait le comportement souhaité.
