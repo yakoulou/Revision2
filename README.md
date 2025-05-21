@@ -46,16 +46,58 @@ Vous disposez :
   > Un `Intent` pourra, par exemple, transporter une instance de cette classe en tant que données extras. 
   * `AdapterPersonnalise` : qui permet d'alimenter une `ReclyclerView`.
 
-* d'un certain nombre de ressource XML, notamment  `listitem.xml` qui permet de décrire une ligne de la `RecylcerView`.
-
-
 :dart: En d'autres termes, toutes ces ressources vous permettent de vous concentrer sur les notions abordées lords des cours. 
 
 :pencil: Je vous conseille de bien étudier les sources Java et les ressources XML !
 
 
-**Question 1 :** Traduire l'application en français et en espagnol.
+**Question 1 :** Versionnage de votre développement
+1. Cloner le présent dépôt et vous l'approprier dans votre propre dépôt git.
+2. Inscrire en première ligne du fichier `README.md` votre *nom*, *prenom* et *groupe*
+3. Créer votre propre dépôt privée et *pusher* le projet initial en tant que branche `main`
+4. Inscrire votre enseignant comme participant à votre déopôt git
+
+
+**Question 1 :** Traduire l'application en français et en espagnol
+1. créer la branche `traduction_dev`
+2. traduire votre application en français et en espagnol
+3. effectuer un *pull request* (ne pas effacer cette branche après l'accepation de de la demande de *pull request*)
+   
 
 **Question 2 :** Compléter les layouts pour que les interfaces utilisateurs ressemblent à celles de l'application de démonstration.
+1. créer la branche `layouts_dev`
+2. développer les layouts
+3. effectuer un *pull request*  (ne pas effacer cette branche après l'accepation de de la demande de *pull request*)
+   
 
-**Question 3 :** Complétez les classes Java pour que votre application ait le comportement souhaité.
+**Question 3 :** Complétez les classes Java pour permettre la saisie correcte des informations et la préparation correcte de l'intention 
+
+**Note :** On se place juste au point qui précède de lancement de l'activité cible.
+
+1. créer la branche `dev_input_activity`
+2. développer les fonctionnalités demandées
+3. utiliser le mode déboggage pour vous assurer que l'intention est *correctement péparée* 
+4. effectuer un *pull request*  (ne pas effacer cette branche après l'accepation de de la demande de *pull request*)
+   
+
+   
+**Question 4 :** Complétez les classes Java pour permettre le calcul de l'IMC, son affichage dans l'activité cible et la préparation de l'intention de résultat
+
+**Note :** On se place juste au point qui précède de la *teerminaison* de l'activité cible.
+
+1. créer la branche `dev_calcul_and_print_imc`
+2. développer les fonctionnalités demandées
+3. utiliser le mode déboggage pour vous assurer que l'intention de résultat est *correctement péparée* 
+4. effectuer un *pull request*  (ne pas effacer cette branche après l'accepation de de la demande de *pull request*)
+   
+
+   
+**Question 5 :** Finaliser le développement de votre application
+
+**Note :** On se place juste au point qui précède de la *teerminaison* de l'activité cible.
+
+1. créer la branche `finalise_dev`
+2. développer les fonctionnalités demandées
+3. utiliser le mode déboggage pour vous assurer que l'intention de résultat est *correctement péparée* 
+4. effectuer un *pull request*  (ne pas effacer cette branche après l'accepation de de la demande de *pull request*)
+   
