@@ -41,6 +41,11 @@ Compléter le projet fourni en vous basant sur les fonctionnalités que vous dé
 Vous disposez :
 
 * d'une [application de démonstration](https://einfo-learning.fr/moodle/mod/resource/view.php?id=13107) sous forme d'archive APK à installer sur l'émulateur.
+  Pour installer l'application sur émulateur ou terminal physique (pour simplifier un seul devra être connecté)  :
+  1. Lancer l'émulateur ou connecter le terminal physique
+  2. `adb devices ` : Permet d'afficher les terminaux connecté à l'ordinateur
+  3. `adb install nom_archive.apk` : Installe l'application sur le terminal
+* d'une documentation sur les parcelables (on vous demande de comprendre l'intérêt des parcelables et non de les développer)
 * d'un **certain nombre de classes** (déjà intégrées au projet Android Studio) et qu'il ne faudra pas modifier :
   * `FicheIMC`: classe `Parcelable` (c'est à dire, dont les instances sont "transportables" par un `Intent` en tant que *données extras* peut-être utilisée pour assurer une communication à l'intérieur d'une application entre activités. 
   > Un `Intent` pourra, par exemple, transporter une instance de cette classe en tant que données extras. 
@@ -57,19 +62,19 @@ Vous disposez :
 4. inscrire votre enseignant comme participant à votre déopôt git
 
 
-**Question 1 :** Traduire l'application en français et en espagnol
+**Question 2 :** Traduire l'application en français et en espagnol
 1. créer la branche `traduction_dev`
 2. traduire votre application en français et en espagnol
 3. effectuer un *pull request* (ne pas effacer cette branche après l'accepation de de la demande de *pull request*)
    
 
-**Question 2 :** Compléter les layouts pour que les interfaces utilisateurs ressemblent à celles de l'application de démonstration.
+**Question 3 :** Compléter les layouts pour que les interfaces utilisateurs ressemblent à celles de l'application de démonstration.
 1. créer la branche `layouts_dev`
 2. développer les layouts
 3. effectuer un *pull request*  (ne pas effacer cette branche après l'accepation de de la demande de *pull request*)
    
 
-**Question 3 :** Complétez les classes Java pour permettre la saisie correcte des informations et la préparation correcte de l'intention 
+**Question 4 :** Complétez les classes Java pour permettre la saisie correcte des informations et la préparation correcte de l'intention 
 
 **Note :** On se place juste au point qui précède de lancement de l'activité cible.
 
@@ -80,7 +85,7 @@ Vous disposez :
    
 
    
-**Question 4 :** Complétez les classes Java pour permettre le calcul de l'IMC, son affichage dans l'activité cible et la préparation de l'intention de résultat
+**Question 5 :** Complétez les classes Java pour permettre le calcul de l'IMC, son affichage dans l'activité cible et la préparation de l'intention de résultat
 
 **Note :** On se place juste au point qui précède de la *teerminaison* de l'activité cible.
 
@@ -91,7 +96,7 @@ Vous disposez :
    
 
    
-**Question 5 :** Finaliser le développement de votre application
+**Question 6 :** Finaliser le développement de votre application
 
 **Note :** On se place juste au point qui précède de la *teerminaison* de l'activité cible.
 
