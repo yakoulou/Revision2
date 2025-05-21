@@ -44,7 +44,6 @@ Vous disposez :
 * d'un **certain nombre de classes** (déjà intégrées au projet Android Studio) et qu'il ne faudra pas modifier :
   * `FicheIMC`: classe `Parcelable` (c'est à dire, dont les instances sont "transportables" par un `Intent` en tant que *données extras* peut-être utilisée pour assurer une communication à l'intérieur d'une application entre activités. 
   > Un `Intent` pourra, par exemple, transporter une instance de cette classe en tant que données extras. 
-  * `AdapterPersonnalise` : qui permet d'alimenter une `ReclyclerView`.
 
 :dart: En d'autres termes, toutes ces ressources vous permettent de vous concentrer sur les notions abordées lords des cours. 
 
@@ -52,10 +51,10 @@ Vous disposez :
 
 
 **Question 1 :** Versionnage de votre développement
-1. Cloner le présent dépôt et vous l'approprier dans votre propre dépôt git.
-2. Inscrire en première ligne du fichier `README.md` votre *nom*, *prenom* et *groupe*
-3. Créer votre propre dépôt privée et *pusher* le projet initial en tant que branche `main`
-4. Inscrire votre enseignant comme participant à votre déopôt git
+1. cloner le présent dépôt et vous l'approprier dans votre propre dépôt git.
+2. inscrire en première ligne du fichier `README.md` votre *nom*, *prenom* et *groupe*
+3. créer votre propre dépôt privée et *pusher* le projet initial en tant que branche `main`
+4. inscrire votre enseignant comme participant à votre déopôt git
 
 
 **Question 1 :** Traduire l'application en français et en espagnol
