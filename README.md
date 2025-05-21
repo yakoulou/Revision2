@@ -40,7 +40,7 @@ Compléter le projet fourni en vous basant sur les fonctionnalités que vous dé
 
 Vous disposez :
 
-* d'une **application de démonstration** sous forme d'archive APK à installer sur l'émulateur.
+* d'une [application de démonstration](https://einfo-learning.fr/moodle/mod/resource/view.php?id=13107) sous forme d'archive APK à installer sur l'émulateur.
 * d'un **certain nombre de classes** (déjà intégrées au projet Android Studio) et qu'il ne faudra pas modifier :
   * `FicheIMC`: classe `Parcelable` (c'est à dire, dont les instances sont "transportables" par un `Intent` en tant que *données extras* peut-être utilisée pour assurer une communication à l'intérieur d'une application entre activités. 
   > Un `Intent` pourra, par exemple, transporter une instance de cette classe en tant que données extras. 
