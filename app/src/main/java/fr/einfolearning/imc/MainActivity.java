@@ -37,7 +37,7 @@ public class MainActivity extends Activity {
 	// Permet de saisir la date de naissance
 	private	DatePicker date_picker = null;
 
-	// Groupe raido pour saisir l'unité de la taille (mètre ou centimètre)
+	// Groupe radio pour saisir l'unité de la taille (mètre ou centimètre)
 	private	RadioGroup group = null;
 
 
