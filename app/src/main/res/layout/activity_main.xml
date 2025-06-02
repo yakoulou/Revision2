@@ -75,6 +75,30 @@
             android:layout_weight="1"
             android:hint="@string/weight_hint"
             android:inputType="numberDecimal" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/size"
+            android:textColor="#FF0000"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/size"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:hint="@string/size_hint"
+            android:inputType="numberDecimal" />
     </LinearLayout>
 
 
@@ -115,6 +139,14 @@
             android:layout_weight="1"
             android:text="@string/calculate_imc" />
 
+        <Button
+        android:id="@+id/raz"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="25dip"
+        android:layout_marginRight="25dip"
+        android:layout_weight="1"
+        android:text="@string/raz" />
     </LinearLayout>
 
     <TextView
@@ -125,4 +157,6 @@
         android:background="@android:color/background_dark"
         android:padding="10dp" />
 
-</LinearLayout>
+    </LinearLayout>
+    .
+
